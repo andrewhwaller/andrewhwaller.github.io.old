@@ -3,13 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
+### Andrew H. Waller
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Greeker of Greek; Lukan obsessive; sadly, a bard; teacher of literature/history; novice programmer @FlatironSchool
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[andrew@andrewhwaller.com](mailto:andrew@andrewhwaller.com)
