@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deedveloper, URLs, and Dependencies
+title: OpenURI, URLs, and Mis(re)direction
 ---
 When building Deedveloper, one of the functions that I needed to add was the ability to not only scrape an initial page of search results in Indeed.com, but also the ability to scrape the pages of individual job listings for more detailed information. I designed my scraper method to pull a truncated URL for each job using Nokogiri; this truncated address would then be appended to "http://indeed.com" to form a full and accessible URL for each job posting. A separate scrape_detail method would then take that posting's URL and parse it with Nokogiri to scrape additional information about the job. This is where things get tricky. For certain job postings, Indeed's URLs were redirecting from an HTTPS URL to an HTTP URL; this would caused OpenURI to throw a runtime error. Since redirecting from HTTPS to HTTP is sometimes considered unsafe, open-uri simply wouldn't allow this to happen.
 
