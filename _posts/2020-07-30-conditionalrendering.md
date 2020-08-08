@@ -1,3 +1,7 @@
+---
+layout: post
+title: Securing a Rails API
+---
 In the course of building my first React app (https://wikiannotator.com) I had to learn different ways to handle conditional rendering, i.e., changing what my components would render based on some sort of state change or other factor. There are three different implementations of conditional rendering that I ended up using in my app.
 
 1. Using a function to render content conditionally
