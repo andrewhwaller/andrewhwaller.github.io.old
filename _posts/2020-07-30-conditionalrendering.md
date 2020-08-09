@@ -24,7 +24,7 @@ This function has a different return value depending on what is going on in the 
 
 Similarly, I can also assign variables inside my render function and reference those variables inside the return statement. Functionally, this is very similar to what I just described, since all of the conditions are evaluated when the render function is called. However, one style or the other may suit you depending on the complexity of the logic and what parts of your component need to be conditionally rendered. I prefer using variables and regular if/else statements if I need to render a larger set of components based on on aspect of the app's state.
 
-3: Inline conditionals
+3. Inline conditionals
 
 You can also write ternaries and other statements directly in your JSX code. This takes a bit of getting used to; one of the common ways to do this that I discovered is the && operator. If you begin your statement with an expression and follow it with && and then the component that you're trying to conditionally render, the evaluation of the first expression should determine whether or not your component/JSX renders. You can also use ternary operators in a similar way. 
 
